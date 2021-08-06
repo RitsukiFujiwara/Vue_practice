@@ -7,8 +7,8 @@ import About from '@/components/About.vue'
 Vue.use(VueRouter)
 
 const routes = [
-    {path: './news',component: News},
-    {path: './about',component: About}
+    {path: '/news',component: News},
+    {path: '/about',component: About}
 ]
 const router = new VueRouter({
     mode: 'history',
